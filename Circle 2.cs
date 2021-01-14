@@ -39,14 +39,14 @@ namespace CSharp_Shell
  
             	   int cx,cy,j,k,condition=0;
                   	A:
-            		cx= random.Next((lowest_x/2),(highest_x/2));
+            		cx= random.Next((lowest_x/4),(highest_x/4));
             		     for(j=0;j<blocked_x.Length;j++)
             		      {
             		      	if(cx==blocked_x[j])
             		           condition++;
             		      }
             	    
-            		cy= random.Next((lowest_y/2),(highest_y/2));
+            		cy= random.Next((lowest_y/4),(highest_y/4));
             		     for(k=0;k<blocked_x.Length;k++)
             		      {
             		      	if(cx==blocked_x[k])
